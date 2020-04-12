@@ -11,7 +11,7 @@ class BusinessBanner extends Component {
                <b> VIZIAPP O APLICATIVO DA VIZINHANÇA</b>
               </h1>
               <p className="lead mb-5 text-warning-50">
-                O VIZI é uma forma de responder à pandemia atual do COVID-19 e ainda fortalecer o pequeno empreendedor local no pós-pandemia.
+                O ViziApp foi criado pensando em uma forma de responder à pandemia atual do COVID-19 e ainda fortalecer o pequeno empreendedor local no pós-pandemia.
                 Criamos uma plataforma para ajudar os pequenos e micro negócios da sua vizinhança.
                 Acreditamos que o senso de comunidade aliado à tecnologia pode ser transformador, gerando impacto positivo nos negócios daqueles que mais necessitam
                 neste momento de crise.

@@ -42,7 +42,16 @@ class Navbar extends Component {
                 <b>Cadastre-se</b>
                 </a>
               </li>
-             
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                <b>Quero comprar</b>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                <b>Login</b>
+                </a>
+              </li>
             </ul>
           </div>
         </div>

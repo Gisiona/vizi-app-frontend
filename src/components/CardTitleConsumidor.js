@@ -13,7 +13,7 @@ class CardTitle extends Component {
         <div className="card-body">
           <h4 className="card-title">Para você consumidor</h4>
           <p className="card-text">
-            O Vizi App é uma aplicação aberta que conecta você com o pequeno empresário. 
+            O ViziApp é uma aplicação aberta que conecta você com o pequeno empresário. 
             Cada bairro tem um líder, cujo papel é cadastrar os estabelecimentos no app e gerir sua comunidade.
           </p>
         </div>
