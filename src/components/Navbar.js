@@ -3,7 +3,9 @@ import React, { Component } from "react";
 class Navbar extends Component {
   render() {
     return (
+      
       <nav className="navbar navbar-expand-lg navbar-dark bg-warning fixed-top">
+        
         <div className="container">
           <a className="navbar-brand" href="#">
             <b>VIZIAPP</b>
@@ -28,30 +30,22 @@ class Navbar extends Component {
                 </a>
               </li>              
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  <b>Como funciona?</b>
+                <a className="nav-link" href="#como-funciona">
+                  <b>Como funciona</b>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#como-funciona-vizers">
                   <b>Vizers</b>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#faca-seu-cadastro">
                 <b>Cadastre-se</b>
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                <b>Quero comprar</b>
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                <b>Login</b>
-                </a>
-              </li>
+            
+             
             </ul>
           </div>
         </div>

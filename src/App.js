@@ -8,6 +8,7 @@ import CardTitleComerciante from "./components/CardTitleComerciante";
 import CardTitleRepresentante from "./components/CardTitleRepresentante";
 import NossosPilares from "./components/NossosPilares";
 import CardContatoBanner from "./components/CardContatoBanner";
+import './global.css';
 
 import Footer from "./components/Footer";
 
