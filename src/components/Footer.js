@@ -6,7 +6,7 @@ class Footer extends Component {
       <footer className="py-5 bg-dark">
         <div className="container">
           <p className="m-0 text-center text-white">
-            Copyright &copy; Vizi App 2020
+            Copyright &copy; ViziApp | O Aplicativo da vizinhança | 2020
           </p>
         </div>
       </footer>

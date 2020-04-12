@@ -6,7 +6,7 @@ class Navbar extends Component {
       <nav className="navbar navbar-expand-lg navbar-dark bg-warning fixed-top">
         <div className="container">
           <a className="navbar-brand" href="#">
-            ViziApp
+            <b>VIZIAPP</b>
           </a>
           <button
             className="navbar-toggler"
@@ -23,30 +23,26 @@ class Navbar extends Component {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
                 <a className="nav-link" href="#">
-                  Home
+                  <b>Home</b>
                   <span className="sr-only">(current)</span>
                 </a>
               </li>              
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Como funciona
+                  <b>Como funciona?</b>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Vizers
+                  <b>Vizers</b>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Cadastre-se
+                <b>Cadastre-se</b>
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contato
-                </a>
-              </li>
+             
             </ul>
           </div>
         </div>

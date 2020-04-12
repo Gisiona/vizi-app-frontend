@@ -6,6 +6,8 @@ import Vizers from "./components/Vizers";
 import CardTitleConsumidor from "./components/CardTitleConsumidor";
 import CardTitleComerciante from "./components/CardTitleComerciante";
 import CardTitleRepresentante from "./components/CardTitleRepresentante";
+import NossosPilares from "./components/NossosPilares";
+import CardContatoBanner from "./components/CardContatoBanner";
 
 import Footer from "./components/Footer";
 
@@ -17,15 +19,17 @@ class App extends Component {
         <BusinessBanner />
         <div className="container">
           <div className="row">
-            <div className="col-md-8 mb-5">
+            <div className="col-md-6 mb-5">
               <BusinessOverview />
             </div>
-            <div className="col-md-4 mb-5">
+            <div className="col-md-6 mb-5">
               <Vizers />
             </div>
           </div>
           
-          <div className="row">          
+          <NossosPilares />
+          <div className="row">   
+            
             <div className="col-md-4 mb-5">
               <CardTitleConsumidor />
             </div>
@@ -37,7 +41,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <BusinessBanner />
+        <CardContatoBanner />
         <Footer />
       </React.Fragment>
     );

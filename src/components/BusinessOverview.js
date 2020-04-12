@@ -12,7 +12,7 @@ class BusinessOverview extends Component {
           e seguro, ou você também pode ser afiliado a um <b>VEZER</b> que faz o seu cadastro e divulga o seu negócio no bairro de atuação.         
         </p>
  
-        <a className="btn btn-primary btn-lg" href="#">
+        <a className="btn btn-warning btn-lg" href="#">
           Saiba mais &raquo;
         </a>
       </React.Fragment>
