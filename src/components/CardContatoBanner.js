@@ -5,8 +5,7 @@ import Contato from  "./Contato";
 class CardContatoBanner extends Component {
   render() {
     return (
-      <section id="faca-seu-cadastro">
-        <header className="bg-light py-5 mb-5">
+      <section className="bg-light py-5 mb-5" id="faca-seu-cadastro">
           <div className="container h-100">
             <div className="row h-100 align-items-center">
               <div className="container col-lg-12">
@@ -17,7 +16,6 @@ class CardContatoBanner extends Component {
               </div>
             </div>
           </div>
-        </header>
       </section>
       
     );

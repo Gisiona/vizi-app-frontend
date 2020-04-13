@@ -8,8 +8,6 @@ import CardTitleComerciante from "./components/CardTitleComerciante";
 import CardTitleRepresentante from "./components/CardTitleRepresentante";
 import NossosPilares from "./components/NossosPilares";
 import CardContatoBanner from "./components/CardContatoBanner";
-import './global.css';
-
 import Footer from "./components/Footer";
 
 class App extends Component {
@@ -20,17 +18,16 @@ class App extends Component {
         <BusinessBanner />
         <div className="container">
           <div className="row">
-            <div className="col-md-6 mb-5">
+            <div className="col-md-6 mb-5">              
               <BusinessOverview />
             </div>
             <div className="col-md-6 mb-5">
               <Vizers />
             </div>
           </div>
-          
-          <NossosPilares />
-          <div className="row">   
-            
+
+          <div className="row">  
+            <NossosPilares />
             <div className="col-md-4 mb-5">
               <CardTitleConsumidor />
             </div>
@@ -42,14 +39,12 @@ class App extends Component {
             </div>
           </div>
         </div>
+
         <CardContatoBanner />
         <Footer />
       </React.Fragment>
     );
   }
 }
-
-
-
 
 export default App;

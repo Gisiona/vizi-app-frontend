@@ -8,6 +8,7 @@ class BusinessOverview extends Component {
        <br/>
        <h2>Como funciona</h2>
           <hr />
+          
           <p>
             O ViziApp é uma aplicação aberta que conecta você com o pequeno empresário com clientes e fornecedores. 
             Você dono de qualquer comercio pode fazer seu cadastro na plataforma online e começar a vender para todos os clientes de forma simples rápido 

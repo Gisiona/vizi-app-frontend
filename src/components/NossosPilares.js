@@ -12,7 +12,7 @@ class NossosPilares extends Component {
                 Por quem pode ser utilizado?
               </h4>
               <p className="lead mb-5 text-warning-50">
-                O VIZI é uma forma de responder à pandemia atual do COVID-19 e ainda fortalecer o pequeno empreendedor local continuar vendendo.
+                O ViziApp é uma forma de responder à pandemia atual do COVID-19 e ainda fortalecer o pequeno empreendedor local continuar vendendo.
               </p>
             </div>
           </div>

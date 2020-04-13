@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import embaixadorPng from '../../src/assets/embaixador.png';
+import embaixadorPng from '../../src/assets/vizer.png';
 
 class CardTitle extends Component {
   render() {
