@@ -9,17 +9,17 @@ class ContactUs extends Component {
         <address>
           <strong>Mega Hack - COVID-19</strong>
           <br />
-          3481 Melrose Place
+          Av. Interlagos 1234, São Paulo
           <br />
-          Beverly Hills, CA 90210
+          Interlagos, São Paulo, SP, 0466100
           <br />
         </address>
         <address>
           <abbr title="Phone">P:</abbr>
-          (123) 456-7890
+          (11) 97951-0575
           <br />
-          <abbr title="Email">E:</abbr>
-          <a href="mailto:#">name@example.com</a>
+          <abbr title="Email">E-mail:</abbr>
+          <a href="mailto:#">helo@voziapp.com.br</a>
         </address>
       </React.Fragment>
     );

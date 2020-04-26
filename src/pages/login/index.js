@@ -34,26 +34,40 @@ function Login() {
     }
 
     return (
-        <div className='login-container'>
-            <section className='form'>
-                <img src={logoImg} alt='Be The Hero' />
-                <form onSubmit={ handleLogin }>
-                    <h1>Faça seu login</h1>
-                    <input placeholder='Seu ID'
-                        value={id}
-                        onChange={e => setId(e.target.value)}
-                    />
-                    <button type='submit' className='button'>Entrar</button>
-                    
-                    <Link to='/register' className='back-link'>
-                        <FiLogIn size={16} color='#e02041' />
-                        Não tenho cadastro 
-                    </Link>
-
-                </form>
-            </section>
-            <img src={heroesImg} alt='Heroes' />
-        </div>
+        <section>
+            <img class="wave" src="img/home.png" />
+            <div class="container">
+                <div class="img">
+                    <img src="img/bg2.svg">
+                </div>
+                <div class="login-content">
+                    <form action="index.html">
+                        <img src="img/avatar.svg">
+                        <h2 class="title">Welcome</h2>
+                        <div class="input-div one">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Username</h5>
+                            <input type="text" class="input">
+                        </div>
+                        </div>
+                        <div class="input-div pass">
+                        <div class="i"> 
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="div">
+                            <h5>Password</h5>
+                            <input type="password" class="input">
+                        </div>
+                        </div>
+                        <a href="#">Forgot Password?</a>
+                        <input type="submit" class="btn" value="Login">
+                    </form>
+                </div>
+                </div>
+        </section>
     );
 }
 
